@@ -1,0 +1,27 @@
+{
+  "name": "training-js-tdd",
+  "version": "0.0.0",
+  "description": "training-js-tdd ===============",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iainjmitchell/training-js-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iainjmitchell/training-js-tdd/issues"
+  },
+  "scripts" : {
+    "test" : "./node_modules/gulp/bin/gulp.js test"
+  },
+  "homepage": "https://github.com/iainjmitchell/training-js-tdd",
+  "devDependencies" : {
+    "gulp" : "*",
+    "gulp-git" : "*",
+    "gulp-qunit" : "*"
+  }
+}
